@@ -11,45 +11,47 @@ namespace Numeric_Converter
         static void Main(string[] args)
         {
             string inputNumber = Console.ReadLine();
-            string input = Console.ReadLine();
-            string output = Console.ReadLine();
-
-            if (input == "DEC")
-            {
-                if (output == "HEX")
-                {
-                    int number = int.Parse(inputNumber);
+            //string input = Console.ReadLine();
+            //string output = Console.ReadLine();
+          
 
 
-                }
-                else if (output == "BIN")
-                {
+            //if (input == "DEC")
+            //{
+            //    if (output == "HEX")
+            //    {
+            //        int number = int.Parse(inputNumber);
 
-                }
-            }
-            else if (input == "HEX")
-            {
-                if (output == "DEC")
-                {
 
-                }
-                else if (output == "BIN")
-                {
+            //    }
+            //    else if (output == "BIN")
+            //    {
 
-                }
-            }
-            else if (input == "BIN")
-            {
-                if (output == "HEX")
-                {
+            //    }
+            //}
+            //else if (input == "HEX")
+            //{
+            //    if (output == "DEC")
+            //    {
 
-                }
-                else if (output == "DEC")
-                {
+            //    }
+            //    else if (output == "BIN")
+            //    {
 
-                }
-               
-            }
+            //    }
+            //}
+            //else if (input == "BIN")
+            //{
+            //    if (output == "HEX")
+            //    {
+
+            //    }
+            //    else if (output == "DEC")
+            //    {
+
+            //    }
+
+            //}
         }
 
         

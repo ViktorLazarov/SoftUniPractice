@@ -36,12 +36,10 @@ namespace HexConverter
                     result += remainder;
                 }
                 char[] resultChar = result.ToCharArray();
-                for (int i = resultChar.Length - 1; i >= 0; i--)
-                {
-                    Console.Write(resultChar[i]);
-                }
-                Console.WriteLine();
-                
+                Array.Reverse(resultChar);
+                Console.WriteLine(new string(resultChar));
+
+
             }
             else if (inputSystem == "BIN")
             {
@@ -76,11 +74,8 @@ namespace HexConverter
 
                 }
                 char[] resultChar = result.ToCharArray();
-                for (int i = resultChar.Length-1; i >= 0; i--)
-                {
-                    Console.Write(resultChar[i]);
-                }
-                Console.WriteLine();
+                Array.Reverse(resultChar);
+                Console.WriteLine(new string(resultChar));
                 
 
             }
