@@ -10,10 +10,10 @@ namespace Numeric_Converter
     {
         static void Main(string[] args)
         {
-            string inputNumber = Console.ReadLine();
+           
             //string input = Console.ReadLine();
             //string output = Console.ReadLine();
-          
+
 
 
             //if (input == "DEC")
@@ -54,6 +54,6 @@ namespace Numeric_Converter
             //}
         }
 
-        
+
     }
 }
