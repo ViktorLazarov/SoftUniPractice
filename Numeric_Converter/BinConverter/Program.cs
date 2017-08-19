@@ -72,6 +72,7 @@ namespace BinConverter
                 char[] resultChar = result.ToCharArray();
                 Array.Reverse(resultChar);
                 Console.WriteLine(new string(resultChar));
+               
 
 
             }
