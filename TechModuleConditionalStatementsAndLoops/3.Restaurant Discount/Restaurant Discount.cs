@@ -27,20 +27,20 @@ namespace _3.Restaurant_Discount
             }
             if (count > 0 && count <= 120)
             {
-                if (count < 50)
+                if (count <= 50)
                 {
                     hallPrice = 2500;
                     hallName = "Small Hall";
 
 
                 }
-                else if (count > 50 && count < 100)
+                else if (count <= 100)
                 {
                     hallPrice = 5000;
                     hallName = "Terrace";
 
                 }
-                else if (count > 100 && count < 120)
+                else if (count <= 120)
                 {
                     hallPrice = 7500;
                     hallName = "Great Hall";
