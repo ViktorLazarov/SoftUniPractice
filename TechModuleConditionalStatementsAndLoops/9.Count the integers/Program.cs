@@ -24,10 +24,10 @@ namespace _9.Count_the_integers
                 }
                 else
                 {
-                    Console.WriteLine(counter);
+                    Console.WriteLine(counter); 
                     break;
                 }
-                input = Console.ReadLine();
+                input = Console.ReadLine(); 
             }
         
         }
