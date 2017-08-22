@@ -10,7 +10,7 @@ namespace _01.Practice_Integer_Numbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("sdfdsf");
+            Console.WriteLine("sdfdsf ");
         }
     }
 }
