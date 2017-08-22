@@ -32,11 +32,11 @@ namespace _13.Game_of_Numbers
                     
                 }
             }
-            if (foundNumber == true)
+            if (foundNumber)
             {
                 Console.WriteLine($"Number found! {match1} + {match2} = {magicNumber}");
             }
-            if (foundNumber == false)
+            else
             {
                 Console.WriteLine($"{count} combinations - neither equals {magicNumber}");
             }
