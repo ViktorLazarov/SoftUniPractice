@@ -27,6 +27,9 @@ namespace _02.Entertrain
                 }
                 input = Console.ReadLine();
             }
+            Console.WriteLine(totalWeight);
+            Console.WriteLine(wagonCount);
+            Console.WriteLine(averageWeight);
         }
     }
 }
