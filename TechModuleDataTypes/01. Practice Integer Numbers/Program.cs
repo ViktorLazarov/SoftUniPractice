@@ -10,7 +10,20 @@ namespace _01.Practice_Integer_Numbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("sdfdsf ");
+            sbyte a = -100;
+            byte b = 128;
+            int c = -3540;
+            int d = 64876;
+            uint e = 2147483648;
+            int f = -1141583228;
+            long g = -1223372036854775808;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(f);
+            Console.WriteLine(g);
         }
     }
 }
